@@ -36,7 +36,7 @@ const NotificationCenter = () => {
       {/* Notification Bell */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full shadow-xl hover:scale-110 transition-transform flex items-center justify-center d-block d-lg-none"
+        className="relative p-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full shadow-xl hover:scale-110 transition-transform flex items-center justify-center d-block d-lg-none mt-3"
       >
         <Bell className="w-8 h-8 text-white " />
         {unreadCount > 0 && (
@@ -46,7 +46,7 @@ const NotificationCenter = () => {
         )}
       </button>
 
-      <span onClick={() => setSidebarOpen(!sidebarOpen)} className="list-icon d-block d-lg-none">
+      <span onClick={() => setSidebarOpen(!sidebarOpen)} className="list-icon d-block d-lg-none ">
           <List size={24} />
       </span>
 
