@@ -445,6 +445,10 @@ label, p {
   #pro{
     color: grey;
   }
+  body {
+    overflow-x: hidden;
+  }
+  
 }
 
 /* Ensure Buttons are Visible */
@@ -459,5 +463,6 @@ label, p {
     display: flex;
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
 }
