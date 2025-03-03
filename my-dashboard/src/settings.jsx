@@ -41,7 +41,7 @@ function Settings() {
 
       {/* Profile Settings */}
       <div className="card p-4 mb-3">
-        <h4>
+        <h4 id="pro">
           <User size={20} /> Profile
         </h4>
 
@@ -100,7 +100,7 @@ function Settings() {
 
       {/* Preferences */}
       <div className="card p-4 mb-3">
-        <h4>
+        <h4 id="pre">
           <Bell size={20} /> Preferences
         </h4>
         <div className="form-check form-switch mt-2">
