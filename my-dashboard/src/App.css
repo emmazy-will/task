@@ -436,6 +436,15 @@ label, p {
   .add-task::after {
     font-size: 24px;
   }
+  label, p {
+    color: #f0f0f0; /* Light text for dark backgrounds */
+  }
+  #pre{
+    color: white;
+  }
+  #pro{
+    color: white;
+  }
 }
 
 /* Ensure Buttons are Visible */
