@@ -138,6 +138,7 @@ ul a {
   flex: 1 1 calc(15% - 20px);
   min-width: 250px;
   max-width: 100px; /* Increased size for better layout */
+  color: white;
 }
 .search-container{
   position: relative;
@@ -223,7 +224,7 @@ button:hover {
 /* Default Light Mode */
 body {
   background-color: #f8f9fa;
-  color: #2d73b9;
+  color: #484d52;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -239,6 +240,10 @@ body.dark-mode .card {
   color: #f8f9fa;
   border: 1px solid #444;
 }
+.card {
+  color: #212529 !important; /* Black text in light mode */
+}
+
 
 /* Form Inputs for Dark Mode */
 body.dark-mode input,
@@ -254,7 +259,7 @@ body.dark-mode .form-check-label {
 /* Light Mode - Default */
 .modal-content {
   background-color: #fff;
-  color: #215589;
+  color: #f3f3f3;
 }
 
 /* Dark Mode - Fix Modal */
