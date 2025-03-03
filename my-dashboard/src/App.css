@@ -259,7 +259,7 @@ body.dark-mode .form-check-label {
 /* Light Mode - Default */
 .modal-content {
   background-color: #fff;
-  color: #f3f3f3;
+  color: grey;
 }
 
 /* Dark Mode - Fix Modal */
@@ -272,8 +272,8 @@ body.dark-mode .modal-content {
 /* Dark Mode - Modal Inputs */
 body.dark-mode .modal-body input,
 body.dark-mode .modal-body textarea {
-  background-color: #1e1e1e;
-  color: #f8f9fa;
+  background-color: #ddd4d4;
+  color: white;
   border: 1px solid #555;
 }
 
@@ -343,13 +343,13 @@ body.dark-mode .hover\:bg-gray-100:hover {
   background-color: #333 !important;
 }
 label, p {
-  color: #f0f0f0; /* Light text for dark backgrounds */
+  color: grey; /* Light text for dark backgrounds */
 }
 #pre{
-  color: white;
+  color: grey;
 }
 #pro{
-  color: white;
+  color: grey;
 }
 
 
@@ -436,14 +436,14 @@ label, p {
   .add-task::after {
     font-size: 24px;
   }
-  label, p {
-    color: #f0f0f0; /* Light text for dark backgrounds */
+  label.dark-mode.p {
+    color: grey; /* Light text for dark backgrounds */
   }
   #pre{
-    color: white;
+    color: grey;
   }
   #pro{
-    color: white;
+    color: grey;
   }
 }
 
